@@ -9,5 +9,5 @@ public class LojaVirtualDmApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LojaVirtualDmApplication.class, args);
 	}
-
+	
 }
