@@ -47,7 +47,7 @@ public class Acesso implements GrantedAuthority {
 		this.descricao = descricao;
 	}
 
-	@Override
+	@Override 
 	public int hashCode() {
 		return Objects.hash(id);
 	}

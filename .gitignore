@@ -3,31 +3,42 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
-### STS ###
-.apt_generated
+# Diretórios e arquivos do Eclipse
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Arquivos compilados
+*.class
+
+# Diretório de saída padrão
+bin/
+target/
+
+# Arquivos de log
+*.log
+
+# Arquivos de pacotes e build
+*.jar
+*.war
+*.ear
+
+# Dependências geradas pelo Maven/Gradle
+/.mvn/
+/.gradle/
+/build/
+
+# Arquivos temporários do sistema
+*.tmp
+*.swp
+*~.nib
+.DS_Store
+Thumbs.db
+
+# Configurações do sistema operacional
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+.idea/
 .vscode/
+
+# Configurações específicas de ambiente
+.env
